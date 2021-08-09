@@ -33,6 +33,11 @@ ORDER BY 1,2
 
 SELECT Location, date, total_cases,total_deaths,(total_deaths/total_cases)*100 AS DeathPercentage
 FROM PortfolioProject..CovidDeaths
+
+
+
+--To View the Data Visualization Using Parts of these Queries
+-- Please Visit My Tableau Public:https://public.tableau.com/views/CovidDeathAndInfectionForeast/CovidInfo?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 WHERE location LIKE '%Canada%'
 ORDER BY 1,2
 
